@@ -17,7 +17,7 @@ import java.util.Scanner;
 5 12 13
 0 0 0
 예제 출력 1
- 
+
 right
 wrong
 right
@@ -41,11 +41,11 @@ public class B4153 {
         break;
       }
 
-      if (a >= b && a >= c) {
+      if (a > b && a > c) {
         hypotenuse = a;
         sideA = b;
         sideB = c;
-      } else if (b >= a && b >= c) {
+      } else if (b > a && b > c) {
         hypotenuse = b;
         sideA = a;
         sideB = c;
