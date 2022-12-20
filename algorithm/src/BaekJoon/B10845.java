@@ -59,16 +59,18 @@ public class B10845 {
     Scanner input = new Scanner(System.in);
     StringBuffer sb = new StringBuffer();
 
-    ArrayDeque<Integer> queue = new ArrayDeque<>();
+    Queue<Integer> queue = new LinkedList<>();
 
     int N = input.nextInt();
+    int value = 0;
 
     for (int i = 0; i < N; i++) {
       String command = input.next();
 
       switch (command) {
         case "push": {
-          queue.offer(input.nextInt());
+          value = input.nextInt();
+          queue.offer(value);
           break;
         }
         case "pop": {
@@ -95,7 +97,7 @@ public class B10845 {
           if (queue.isEmpty()) {
             sb.append(-1).append('\n');
           } else {
-            sb.append(queue.peekFirst()).append('\n');
+            sb.append(queue.peek()).append('\n');
           }
           break;
         }
@@ -103,7 +105,7 @@ public class B10845 {
           if (queue.isEmpty()) {
             sb.append(-1).append('\n');
           } else {
-            sb.append(queue.peekLast()).append('\n');
+            sb.append(value).append('\n');
           }
           break;
         }

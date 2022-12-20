@@ -26,6 +26,19 @@ public class B11050 {
     int N = input.nextInt();
     int K = input.nextInt();
 
+//    int up = 1;
+//    int down = 1;
+//
+//    for (int i = N; i > K; i--) {
+//      up *= i;
+//    }
+//
+//    for (int i = 1; i <= N - K; i++) {
+//      down *= i;
+//    }
+//
+//    System.out.println(up/down);
+
     System.out.println(factorial(N) / (factorial(N - K) * factorial(K)));
   }
 
