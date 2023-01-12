@@ -66,15 +66,15 @@ public class B10825 {
           if (Integer.parseInt(o1[2]) == Integer.parseInt(o2[2])) {
             if (Integer.parseInt(o1[3]) == Integer.parseInt(o2[3])) {
 
-              return o1[0].compareTo(o2[0]);
+              return o1[0].compareTo(o2[0]); // 국영수 점수가 같다면 오름차순
             }
-            return Integer.parseInt(o2[3]) - Integer.parseInt(o1[3]);
+            return Integer.parseInt(o2[3]) - Integer.parseInt(o1[3]); // 국어점수와 영어점수 같을 때, 수학 점수는 내림차순
 
           }
-          return Integer.parseInt(o1[2]) - Integer.parseInt(o2[2]);
+          return Integer.parseInt(o1[2]) - Integer.parseInt(o2[2]); // 국어점수 같을 때, 영어는 오름차순
         }
 
-        return Integer.parseInt(o2[1]) - Integer.parseInt(o1[1]);
+        return Integer.parseInt(o2[1]) - Integer.parseInt(o1[1]); // 국어점수는 내림차순
 
       }
     });

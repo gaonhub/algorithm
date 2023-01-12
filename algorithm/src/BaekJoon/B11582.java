@@ -40,9 +40,12 @@ public class B11582 {
     }
     int members = input.nextInt();
 
-
+//    System.out.println(list);
     for (int i = 0; i < n; i += n / members) {
-      list.subList(i, i + n / members).sort(Comparator.naturalOrder());
+      System.out.println(i);
+      System.out.println("sort 전: " + list);
+      list.subList(i, i + n / members).sort(Comparator.naturalOrder()); 
+      System.out.println("sort 후: " + list);
     }
 
     StringBuilder sb = new StringBuilder();
@@ -50,6 +53,6 @@ public class B11582 {
     for (int i : list) {
       sb.append(i).append(" ");
     }
-    System.out.println(sb);
+//    System.out.println(sb);
   }
 }
