@@ -44,7 +44,7 @@ public class B11582 {
     for (int i = 0; i < n; i += n / members) {
       System.out.println(i);
       System.out.println("sort 전: " + list);
-      list.subList(i, i + n / members).sort(Comparator.naturalOrder()); 
+      list.subList(i, i + n / members).sort(Comparator.naturalOrder());
       System.out.println("sort 후: " + list);
     }
 
