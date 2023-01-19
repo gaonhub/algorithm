@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93f47da7-2536-44fd-8036-e13300411265" name="Changes" comment="" />
+    <list default="true" id="9d187a7a-279c-4c0a-95a2-492dc47dfb74" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2IFvypTFp8La7pc2Due795FT2hN" />
+  <component name="ProjectId" id="2KXwqXdjHY43v8A0MfS45kR6FpE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/gaon/git/algorithm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gaon/git/algorithm/algorithm/src/BaekJoon&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="93f47da7-2536-44fd-8036-e13300411265" name="Changes" comment="" />
-      <created>1669790403316</created>
+      <changelist id="9d187a7a-279c-4c0a-95a2-492dc47dfb74" name="Changes" comment="" />
+      <created>1674134427253</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669790403316</updated>
-      <workItem from="1669790405044" duration="71000" />
-      <workItem from="1669790486481" duration="1000" />
-      <workItem from="1674134526598" duration="21000" />
+      <updated>1674134427253</updated>
+      <workItem from="1674134428821" duration="21000" />
+      <workItem from="1674134497026" duration="7000" />
     </task>
     <servers />
   </component>
