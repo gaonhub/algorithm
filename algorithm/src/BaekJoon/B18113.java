@@ -12,20 +12,20 @@ public class B18113 {
     BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     StringTokenizer st = new StringTokenizer(in.readLine());
 
-    int N = Integer.parseInt(st.nextToken());
-    int K = Integer.parseInt(st.nextToken());
-    int M = Integer.parseInt(st.nextToken());
+    int N = Integer.parseInt(st.nextToken()); // 김밥의 개수
+    int K = Integer.parseInt(st.nextToken()); // 꼬다리의 길이
+    int M = Integer.parseInt(st.nextToken()); // 최소 개수
     List<Integer> list = new ArrayList<>();
 
     for (int i = 0; i < N; i++) {
       st = new StringTokenizer(in.readLine());
-      int gb = Integer.parseInt(st.nextToken());
+      int length = Integer.parseInt(st.nextToken());
 
-      if (gb > (2 * K)) {
-        list.add(gb-(2*K));
+      if (length > (2 * K)) {
+        list.add(length - (2 * K));
       }
-      if (2*K > gb && gb>K) {
-        list.add(gb-K);
+      if (2 * K > length && length > K) {
+        list.add(length - K);
       }
     }
 

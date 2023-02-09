@@ -33,11 +33,11 @@ public class B2776 {
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    int T = Integer.parseInt(br.readLine());
+    int T = Integer.parseInt(br.readLine()); // 테스트 개수
 
     for(int a=0; a<T; a++){
       StringBuilder sb = new StringBuilder();
-      int note1 = Integer.parseInt(br.readLine());
+      int note1 = Integer.parseInt(br.readLine()); // 수첩1 정수 개수
       int[] list = new int[note1 + 1];
 
       StringTokenizer st = new StringTokenizer(br.readLine());
@@ -45,7 +45,7 @@ public class B2776 {
         list[i] = Integer.parseInt(st.nextToken());
 
       Arrays.sort(list);
-      int note2 = Integer.parseInt(br.readLine());
+      int note2 = Integer.parseInt(br.readLine()); // 수첩2 정수 개수
 
       st = new StringTokenizer(br.readLine());
       for(int i=0; i<note2; i++){
